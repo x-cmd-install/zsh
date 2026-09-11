@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:59:59Z
+  collectedAt: 2026-09-11T18:47:22Z
 timeline:
   created: 2021-01-26
   lastCommit: 2021-01-26
@@ -93,7 +93,7 @@ total:
   commit: 11400
 ---
 path: /home/runner/.x-repo/github.com/jart/zsh
-collectedAt: 2026-09-11T06:00:15Z
+collectedAt: 2026-09-11T18:47:38Z
 loc:
   C:
     code: 106619
