@@ -41,12 +41,12 @@ Total: **116,644** lines of code across **126** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-01 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -57,4 +57,4 @@ Install metadata for zsh lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T06:07:55Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:23:53Z._
