@@ -1,55 +1,14 @@
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.3.1
-  origversion: 5.3.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.5.1
-  origversion: 5.5.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.7.1
-  origversion: 5.7.1-1
-  status: legacy
-  vulnerable: true
-- repo: wikidata
-  srcname: Q227308
-  visiblename: zsh
-  version: 5.9.2
-  origversion: null
-  status: newest
-  summary: Unix shell
-  licenses:
-    - MIT License Modern Variant
-- repo: aixtoolbox
-  srcname: zsh
-  visiblename: zsh
-  version: "5.9"
-  origversion: 5.9-1
-  status: outdated
-  summary: A powerful interactive shell
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Shells
 - repo: amazon_2
   srcname: zsh
   visiblename: zsh
-  version: 5.3.1
-  origversion: 5.3.1-7.amzn2
+  version: 5.5.1
+  origversion: 5.5.1-1.amzn2.0.2
   status: legacy
   summary: Powerful interactive shell
   licenses:
     - MIT
   categories:
-    - System Environment/Shells
+    - Unspecified
   vulnerable: true
 - repo: amazon_2
   srcname: zsh
@@ -62,25 +21,37 @@
     - MIT
   categories:
     - Unspecified
-- repo: pkgsrc_2026_3
-  srcname: shells/zsh
-  binname: zsh
-  visiblename: shells/zsh
-  version: 5.9.2
-  origversion: null
-  status: newest
-  summary: The Z shell
-  maintainers:
-    - pkgsrc-users@netbsd.org
+- repo: aixtoolbox
+  srcname: zsh
+  visiblename: zsh
+  version: "5.9"
+  origversion: 5.9-1
+  status: outdated
+  summary: A powerful interactive shell
+  licenses:
+    - BSD
   categories:
-    - shells
+    - System Environment/Shells
 - repo: aix_osp
   srcname: zsh
   visiblename: zsh
-  version: 5.0.1
-  origversion: 5.0.1-2
-  status: legacy
+  version: "5.8"
+  origversion: 5.8-1
+  status: outdated
   vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: zsh
+  binname: cvs-zsh-completion
+  visiblename: cvs-zsh-completion
+  version: 5.8.1
+  origversion: 5.8.1-r1
+  status: outdated
+  summary: Zsh completions for cvs
+  maintainers:
+    - djt@hxx.in
+  licenses:
+    - Zsh AND BSD-3-Clause AND GPL-2.0+ AND GPL-2.0-only AND Artistic-1.0-Perl AND MIT AND GPL-1.0+
 - repo: adelie_current
   subrepo: system
   srcname: zsh
@@ -103,19 +74,6 @@
   origversion: 5.8.1-r1
   status: outdated
   summary: Zsh completions for bzr
-  maintainers:
-    - djt@hxx.in
-  licenses:
-    - Zsh AND BSD-3-Clause AND GPL-2.0+ AND GPL-2.0-only AND Artistic-1.0-Perl AND MIT AND GPL-1.0+
-- repo: adelie_current
-  subrepo: system
-  srcname: zsh
-  binname: cvs-zsh-completion
-  visiblename: cvs-zsh-completion
-  version: 5.8.1
-  origversion: 5.8.1-r1
-  status: outdated
-  summary: Zsh completions for cvs
   maintainers:
     - djt@hxx.in
   licenses:
@@ -172,6 +130,20 @@
     - djt@hxx.in
   licenses:
     - Zsh AND BSD-3-Clause AND GPL-2.0+ AND GPL-2.0-only AND Artistic-1.0-Perl AND MIT AND GPL-1.0+
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.6.1
+  origversion: 5.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: "5.6"
+  origversion: 5.6-1
+  status: legacy
+  vulnerable: true
 - repo: adelie_current
   subrepo: system
   srcname: zsh
@@ -1120,12 +1092,12 @@
 - repo: alpine_3_20
   subrepo: main
   srcname: zsh
-  binname: android-tools-zsh-completion
-  visiblename: android-tools-zsh-completion
+  binname: lynx-zsh-completion
+  visiblename: lynx-zsh-completion
   version: "5.9"
   origversion: 5.9-r3
   status: outdated
-  summary: Zsh completions for android-tools
+  summary: Zsh completions for lynx
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -1145,121 +1117,6 @@
 - repo: alpine_3_20
   subrepo: main
   srcname: zsh
-  binname: bzr-zsh-completion
-  visiblename: bzr-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for bzr
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: composer-zsh-completion
-  visiblename: composer-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for composer
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: cvs-zsh-completion
-  visiblename: cvs-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for cvs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: gcc-zsh-completion
-  visiblename: gcc-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for gcc
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: git-zsh-completion
-  visiblename: git-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for git
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: graphicsmagick-zsh-completion
-  visiblename: graphicsmagick-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for graphicsmagick
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: imagemagick-zsh-completion
-  visiblename: imagemagick-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for imagemagick
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: artix
-  subrepo: world
-  srcname: zsh
-  binname: zsh
-  visiblename: zsh
-  version: 5.9.2
-  origversion: 5.9.2-1
-  status: newest
-  summary: A very advanced and programmable command interpreter (shell) for UNIX
-  licenses:
-    - custom
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
-  binname: lynx-zsh-completion
-  visiblename: lynx-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r3
-  status: outdated
-  summary: Zsh completions for lynx
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: main
-  srcname: zsh
   binname: postgresql-zsh-completion
   visiblename: postgresql-zsh-completion
   version: "5.9"
@@ -1400,6 +1257,110 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: android-tools-zsh-completion
+  visiblename: android-tools-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for android-tools
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: bzr-zsh-completion
+  visiblename: bzr-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for bzr
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: composer-zsh-completion
+  visiblename: composer-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for composer
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: cvs-zsh-completion
+  visiblename: cvs-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for cvs
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: gcc-zsh-completion
+  visiblename: gcc-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for gcc
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: git-zsh-completion
+  visiblename: git-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for git
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: graphicsmagick-zsh-completion
+  visiblename: graphicsmagick-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for graphicsmagick
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_20
+  subrepo: main
+  srcname: zsh
+  binname: imagemagick-zsh-completion
+  visiblename: imagemagick-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r3
+  status: outdated
+  summary: Zsh completions for imagemagick
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
 - repo: alpine_3_21
   subrepo: main
   srcname: zsh
@@ -1422,6 +1383,19 @@
   origversion: 5.9-r4
   status: outdated
   summary: Zsh completions for bzr
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT-Modern-Variant AND GPL-2.0-only
+- repo: alpine_3_21
+  subrepo: main
+  srcname: zsh
+  binname: zfs-zsh-completion
+  visiblename: zfs-zsh-completion
+  version: "5.9"
+  origversion: 5.9-r4
+  status: outdated
+  summary: Zsh completions for zfs
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -1565,19 +1539,6 @@
   origversion: 5.9-r4
   status: outdated
   summary: Zsh completions for tmux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT-Modern-Variant AND GPL-2.0-only
-- repo: alpine_3_21
-  subrepo: main
-  srcname: zsh
-  binname: zfs-zsh-completion
-  visiblename: zfs-zsh-completion
-  version: "5.9"
-  origversion: 5.9-r4
-  status: outdated
-  summary: Zsh completions for zfs
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -1725,6 +1686,15 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT-Modern-Variant AND GPL-2.0-only
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: zsh
+  visiblename: zsh
+  version: "5.9"
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: alpine_3_22
   subrepo: main
   srcname: zsh
@@ -2732,15 +2702,6 @@
     - ALT-Zsh
   categories:
     - Shells
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: zsh
-  visiblename: zsh
-  version: "5.9"
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: apertis_v2024
   subrepo: v2024/development
   srcname: zsh
@@ -2861,6 +2822,17 @@
   summary: Info, HTML and PDF format of the ZSH documentation
   maintainers:
     - a821@aur
+  licenses:
+    - custom
+- repo: artix
+  subrepo: world
+  srcname: zsh
+  binname: zsh
+  visiblename: zsh
+  version: 5.9.2
+  origversion: 5.9.2-1
+  status: newest
+  summary: A very advanced and programmable command interpreter (shell) for UNIX
   licenses:
     - custom
 - repo: artix
@@ -3050,6 +3022,21 @@
     - richih@debian.org
   categories:
     - shells
+- repo: fedora_44
+  subrepo: updates
+  srcname: zsh
+  binnames:
+    - zsh
+    - zsh-html
+  visiblename: zsh
+  version: "5.9"
+  origversion: 5.9-21.fc44
+  status: outdated
+  summary: Powerful interactive shell
+  licenses:
+    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
+  categories:
+    - Unspecified
 - repo: debian_unstable
   subrepo: sid/main
   srcname: zsh
@@ -3193,23 +3180,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: zsh
-  binnames:
-    - zsh
-    - zsh-html
-    - zsh-debuginfo
-    - zsh-debugsource
-  visiblename: zsh
-  version: "5.9"
-  origversion: 5.9-13.fc40
-  status: outdated
-  summary: Powerful interactive shell
-  licenses:
-    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: zsh
   binnames:
@@ -3220,6 +3190,23 @@
   visiblename: zsh
   version: "5.9"
   origversion: 5.9-14.fc40
+  status: outdated
+  summary: Powerful interactive shell
+  licenses:
+    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: zsh
+  binnames:
+    - zsh
+    - zsh-html
+    - zsh-debuginfo
+    - zsh-debugsource
+  visiblename: zsh
+  version: "5.9"
+  origversion: 5.9-13.fc40
   status: outdated
   summary: Powerful interactive shell
   licenses:
@@ -3242,21 +3229,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: zsh
-  binnames:
-    - zsh
-    - zsh-html
-  visiblename: zsh
-  version: "5.9"
-  origversion: 5.9-18.fc42
-  status: outdated
-  summary: Powerful interactive shell
-  licenses:
-    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: zsh
   binnames:
@@ -3265,6 +3237,21 @@
   visiblename: zsh
   version: "5.9"
   origversion: 5.9-16.fc42
+  status: outdated
+  summary: Powerful interactive shell
+  licenses:
+    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: zsh
+  binnames:
+    - zsh
+    - zsh-html
+  visiblename: zsh
+  version: "5.9"
+  origversion: 5.9-18.fc42
   status: outdated
   summary: Powerful interactive shell
   licenses:
@@ -3316,21 +3303,6 @@
     - MIT-Modern-Variant AND ISC AND GPL-2.0-only
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
-  srcname: zsh
-  binnames:
-    - zsh
-    - zsh-html
-  visiblename: zsh
-  version: "5.9"
-  origversion: 5.9-21.fc44
-  status: outdated
-  summary: Powerful interactive shell
-  licenses:
-    - MIT-Modern-Variant AND ISC AND GPL-2.0-only
-  categories:
-    - Unspecified
 - repo: fedora_45
   subrepo: release
   srcname: zsh
@@ -3346,14 +3318,6 @@
     - MIT-Modern-Variant AND ISC AND GPL-2.0-only
   categories:
     - Unspecified
-- repo: distri
-  srcname: zsh
-  binname: zsh
-  visiblename: zsh
-  version: 5.6.2
-  origversion: 5.6.2-9
-  status: outdated
-  vulnerable: true
 - repo: fedora_rawhide
   subrepo: development
   srcname: zsh
@@ -3627,23 +3591,15 @@
     - Permissive
   categories:
     - shells
-- repo: mageia_9
-  subrepo: core/release
-  srcname: zsh
-  binnames:
-    - zsh
-    - zsh-doc
-    - zsh-debuginfo
-    - zsh-debugsource
+- repo: wikidata
+  srcname: Q227308
   visiblename: zsh
-  version: "5.9"
-  origversion: 1:5.9-3.mga9
-  status: outdated
-  summary: A shell with lots of features
+  version: 5.9.2
+  origversion: null
+  status: newest
+  summary: Unix shell
   licenses:
-    - MIT
-  categories:
-    - Shells
+    - MIT License Modern Variant
 - repo: mageia_10
   subrepo: core/release
   srcname: zsh
@@ -3897,18 +3853,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: pkgsrc_2026_2
-  srcname: shells/zsh
-  binname: zsh
-  visiblename: shells/zsh
-  version: 5.9.1
-  origversion: null
-  status: outdated
-  summary: The Z shell
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - shells
 - repo: openeuler_25_03
   srcname: zsh
   binnames:
@@ -4240,6 +4184,30 @@
     - as-is
   categories:
     - app:console
+- repo: pkgsrc_2026_2
+  srcname: shells/zsh
+  binname: zsh
+  visiblename: shells/zsh
+  version: 5.9.1
+  origversion: null
+  status: outdated
+  summary: The Z shell
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - shells
+- repo: pkgsrc_2026_3
+  srcname: shells/zsh
+  binname: zsh
+  visiblename: shells/zsh
+  version: 5.9.2
+  origversion: null
+  status: newest
+  summary: The Z shell
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - shells
 - repo: pkgsrc_current
   srcname: shells/zsh
   binname: zsh
@@ -4516,16 +4484,6 @@
     - GPL
   categories:
     - base/system
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: zsh
-  visiblename: zsh
-  version: "5.8"
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: termux
   srcname: zsh
   binname: zsh
@@ -4710,83 +4668,6 @@
 - repo: aix_osp
   srcname: zsh
   visiblename: zsh
-  version: 5.0.7
-  origversion: 5.0.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.3"
-  origversion: 5.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.8
-  origversion: 5.0.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.1.1
-  origversion: 5.1.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.1"
-  origversion: 5.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.2"
-  origversion: 5.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.4.1
-  origversion: 5.4.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.4.2
-  origversion: 5.4.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.5"
-  origversion: 5.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.6.1
-  origversion: 5.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.6"
-  origversion: 5.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
   version: 5.6.2
   origversion: 5.6.2-1
   status: legacy
@@ -4794,159 +4675,15 @@
 - repo: aix_osp
   srcname: zsh
   visiblename: zsh
+  version: 5.7.1
+  origversion: 5.7.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
   version: "5.7"
   origversion: 5.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: "5.8"
-  origversion: 5.8-1
-  status: outdated
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: zsh
-  visiblename: zsh
-  version: 5.5.1
-  origversion: 5.5.1-10.el8
-  status: outdated
-  summary: Powerful interactive shell
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: BaseOS
-  srcname: zsh
-  binnames:
-    - zsh
-    - zsh-html
-    - zsh-debuginfo
-    - zsh-debugsource
-  visiblename: zsh
-  version: "5.8"
-  origversion: 5.8-9.el9
-  status: outdated
-  summary: Powerful interactive shell
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: zsh
-  visiblename: zsh
-  version: 5.3.1
-  origversion: 5.3.1-6.amzn2
-  status: legacy
-  summary: Powerful interactive shell
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Shells
-  vulnerable: true
-- repo: amazon_2
-  srcname: zsh
-  visiblename: zsh
-  version: 5.5.1
-  origversion: 5.5.1-1.amzn2.0.2
-  status: legacy
-  summary: Powerful interactive shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: zsh
-  visiblename: zsh
-  version: 5.5.1
-  origversion: 5.5.1-1.amzn2
-  status: legacy
-  summary: Powerful interactive shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: zsh
-  visiblename: zsh
-  version: 5.5.1
-  origversion: 5.5.1-2.amzn2.0.1
-  status: legacy
-  summary: Powerful interactive shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: zsh
-  visiblename: zsh
-  version: 5.7.1
-  origversion: 5.7.1-6.amzn2.0.1
-  status: legacy
-  summary: Powerful interactive shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.1
-  origversion: 5.0.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.2
-  origversion: 5.0.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.2
-  origversion: 5.0.2-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.4
-  origversion: 5.0.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.5
-  origversion: 5.0.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 4.3.17
-  origversion: 4.3.17-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: zsh
-  visiblename: zsh
-  version: 5.0.6
-  origversion: 5.0.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -5019,20 +4756,149 @@
   origversion: 4.3.17-1
   status: legacy
   vulnerable: true
-- repo: centos_stream_8
-  subrepo: BaseOS
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 4.3.17
+  origversion: 4.3.17-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.1
+  origversion: 5.0.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.1
+  origversion: 5.0.1-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.2
+  origversion: 5.0.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.2
+  origversion: 5.0.2-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.4
+  origversion: 5.0.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.5
+  origversion: 5.0.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.6
+  origversion: 5.0.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.7
+  origversion: 5.0.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.0.8
+  origversion: 5.0.8-1
+  status: legacy
+  vulnerable: true
+- repo: amazon_2
   srcname: zsh
   visiblename: zsh
   version: 5.5.1
-  origversion: 5.5.1-6.el8_1.2
-  status: outdated
+  origversion: 5.5.1-1.amzn2
+  status: legacy
   summary: Powerful interactive shell
-  maintainers:
-    - bugs@centos.org
   licenses:
     - MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: zsh
+  visiblename: zsh
+  version: 5.5.1
+  origversion: 5.5.1-2.amzn2.0.1
+  status: legacy
+  summary: Powerful interactive shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: zsh
+  visiblename: zsh
+  version: 5.7.1
+  origversion: 5.7.1-6.amzn2.0.1
+  status: legacy
+  summary: Powerful interactive shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.1.1
+  origversion: 5.1.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: "5.1"
+  origversion: 5.1-1
+  status: legacy
+  vulnerable: true
+- repo: amazon_2
+  srcname: zsh
+  visiblename: zsh
+  version: 5.3.1
+  origversion: 5.3.1-6.amzn2
+  status: legacy
+  summary: Powerful interactive shell
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Shells
+  vulnerable: true
+- repo: amazon_2
+  srcname: zsh
+  visiblename: zsh
+  version: 5.3.1
+  origversion: 5.3.1-7.amzn2
+  status: legacy
+  summary: Powerful interactive shell
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Shells
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -5072,6 +4938,116 @@
     - MIT
   categories:
     - System Environment/Shells
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: zsh
+  visiblename: zsh
+  version: 5.5.1
+  origversion: 5.5.1-10.el8
+  status: outdated
+  summary: Powerful interactive shell
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: BaseOS
+  srcname: zsh
+  binnames:
+    - zsh-debugsource
+    - zsh-debuginfo
+    - zsh-html
+    - zsh
+  visiblename: zsh
+  version: "5.8"
+  origversion: 5.8-9.el9
+  status: outdated
+  summary: Powerful interactive shell
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: zsh
+  visiblename: zsh
+  version: "5.6"
+  origversion: 5.6-7.5.1
+  status: outdated
+  summary: Shell with comprehensive completion
+  licenses:
+    - MIT
+  categories:
+    - System/Shells
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: zsh
+  visiblename: zsh
+  version: "5.6"
+  origversion: 5.6-7.5.1
+  status: legacy
+  summary: Shell with comprehensive completion
+  licenses:
+    - MIT
+  categories:
+    - System/Shells
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: "5.2"
+  origversion: 5.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.3.1
+  origversion: 5.3.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: "5.3"
+  origversion: 5.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.4.1
+  origversion: 5.4.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.4.2
+  origversion: 5.4.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: 5.5.1
+  origversion: 5.5.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: zsh
+  visiblename: zsh
+  version: "5.5"
+  origversion: 5.5-1
+  status: legacy
   vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
@@ -5127,6 +5103,21 @@
   visiblename: zsh
   version: 5.5.1
   origversion: 5.5.1-10.el8
+  status: outdated
+  summary: Powerful interactive shell
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: BaseOS
+  srcname: zsh
+  visiblename: zsh
+  version: 5.5.1
+  origversion: 5.5.1-6.el8_1.2
   status: outdated
   summary: Powerful interactive shell
   maintainers:
@@ -5289,6 +5280,14 @@
     - richih@debian.org
   categories:
     - shells
+  vulnerable: true
+- repo: distri
+  srcname: zsh
+  binname: zsh
+  visiblename: zsh
+  version: 5.6.2
+  origversion: 5.6.2-9
+  status: outdated
   vulnerable: true
 - repo: eurolinux_8
   subrepo: baseos
@@ -5485,32 +5484,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: zsh
-  visiblename: zsh
-  version: "5.6"
-  origversion: 5.6-7.5.1
-  status: outdated
-  summary: Shell with comprehensive completion
-  licenses:
-    - MIT
-  categories:
-    - System/Shells
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: zsh
-  visiblename: zsh
-  version: "5.6"
-  origversion: 5.6-7.5.1
-  status: legacy
-  summary: Shell with comprehensive completion
-  licenses:
-    - MIT
-  categories:
-    - System/Shells
-  vulnerable: true
 - repo: pardus_21
   subrepo: main
   srcname: zsh
@@ -5634,6 +5607,16 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: zsh
+  visiblename: zsh
+  version: "5.8"
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: slackware64_15_0
   subrepo: slackware64
   binname: zsh
@@ -5746,29 +5729,6 @@
     - shells
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/main
-  srcname: zsh
-  binnames:
-    - zsh-common
-    - zsh
-    - zsh-doc
-    - zsh-static
-    - zsh-dev
-    - zsh-dbg
-  visiblename: zsh
-  version: 5.1.1
-  origversion: 5.1.1-1ubuntu2.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - abe@debian.org
-    - ft@bewatermyfriend.org
-    - mika@debian.org
-    - richih@debian.org
-  categories:
-    - shells
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: zsh
   binnames:
@@ -5791,8 +5751,8 @@
   categories:
     - shells
   vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic-updates/main
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
   srcname: zsh
   binnames:
     - zsh-common
@@ -5800,9 +5760,10 @@
     - zsh-doc
     - zsh-static
     - zsh-dev
+    - zsh-dbg
   visiblename: zsh
-  version: 5.4.2
-  origversion: 5.4.2-3ubuntu3.2
+  version: 5.1.1
+  origversion: 5.1.1-1ubuntu2.3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -5825,6 +5786,28 @@
   visiblename: zsh
   version: 5.4.2
   origversion: 5.4.2-3ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - abe@debian.org
+    - ft@bewatermyfriend.org
+    - mika@debian.org
+    - richih@debian.org
+  categories:
+    - shells
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
+  srcname: zsh
+  binnames:
+    - zsh-common
+    - zsh
+    - zsh-doc
+    - zsh-static
+    - zsh-dev
+  visiblename: zsh
+  version: 5.4.2
+  origversion: 5.4.2-3ubuntu3.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
