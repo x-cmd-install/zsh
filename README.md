@@ -41,31 +41,12 @@ Total: **116,644** lines of code across **126** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## Distribution status
-
-Reported by **439** distros on [repology.org](https://repology.org/project/zsh). **84** are ✅ on the latest upstream release, **294** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.9.2` | ✅ latest |
-| Debian 14 | `5.9.2` | ✅ latest |
-| Debian 13 | `5.9` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.9` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.9` | ⚠️ outdated |
-| Arch | `5.9.2` | ✅ latest |
-| Homebrew | `5.9.2` | ✅ latest |
-| Fedora rawhide | `5.9.2` | ✅ latest |
-| Nix unstable | `5.9.2` | ✅ latest |
-| Void | `5.9.2` | ✅ latest |
-| Alpine edge | `5.9.2` | ✅ latest |
-| openSUSE Tumbleweed | `5.9` | ⚠️ outdated |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -76,4 +57,4 @@ Install metadata for zsh lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:49:09Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:34:43Z._
